@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Navigation Drawer
                 startActivity(new Intent(getApplicationContext(), Main2Activity.class));
             }
         });
